@@ -10,9 +10,8 @@ Um sistema para visualização e cadastro de pontos de coleta e reciclagem. Proj
 
 ## Comandos
 
-Comando para iniciar o servidor _nodemon_:
-
-- `npm start`
+- `npm install` instalar as dependências do Node.
+- `npm start` iniciar o servidor.
   <br>
 
 <img src="public/assets/page_system.jpg">
