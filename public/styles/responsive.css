@@ -1,0 +1,39 @@
+@media (max-width: 900px) {
+  #page-home {
+    background-position-x: 70vw;
+  }
+  #page-home .content {
+    align-items: center;
+    text-align: center;
+  }
+  #page-home header a {
+    position: absolute;
+    bottom: 1vh;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #page-home .content main {
+    align-items: center;
+  }
+  #page-search-results main .cards {
+    grid-template-columns: 1fr;
+  }
+  #page-create-point .field-group {
+    flex-direction: column;
+  }
+  form .field-group .field + .field {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1800px) {
+  #page-home {
+    background-position-x: 45vw;
+  }
+}
+
+@media (max-height: 500px) {
+  #page-home {
+    background-position-y: 150px;
+  }
+}
